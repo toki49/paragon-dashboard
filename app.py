@@ -427,7 +427,7 @@ with tab1:
             x=comp["share"],
             y=comp["sentiment"],
             orientation="h",
-            marker_color=[SUCCESS, MUTED, WARNING],
+            marker_color=[SUCCESS, MUTED,  "#E53E3E"],
             text=comp["share"].map(lambda x: f"{x:.1f}%"),
             textposition="outside",
         )
